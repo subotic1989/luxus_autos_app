@@ -1,0 +1,46 @@
+.contact {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  &__map {
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: 0.5rem;
+  }
+
+  &__form {
+    padding: 2rem;
+    flex: 1 1 42rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    color: var(--black);
+    padding-bottom: 1rem;
+  }
+
+  &__input {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    border: var(--border);
+    margin: 0.7rem 0;
+  }
+
+  &__textarea {
+    height: 15rem;
+    resize: none;
+  }
+}

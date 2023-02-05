@@ -1,0 +1,72 @@
+<section class="featured section" id="featured">
+  <h1 class="heading"><span>featured</span> cars</h1>
+
+  <!--=============== SWIPER 1 ===============-->
+  <swiper class="featured__container container" [config]="config">
+    <ng-template
+      swiperSlide
+      class="featured__content"
+      *ngFor="let card of cardList"
+    >
+      <img src="{{ card.img }}" alt="{{ card.title }}" class="featured__img" />
+      <div>
+        <h3 class="featured__title">{{ card.title }}</h3>
+        <div class="featured__icons">
+          <ng-container *ngFor="let i of [0, 1, 2, 3, 4]; index as j">
+            <img
+              src="../../../assets/image/icons/star.svg"
+              alt="star"
+              *ngIf="j < card.stars - (card.stars % 1)"
+            />
+          </ng-container>
+
+          <img
+            src="../../../assets/image/icons/star-h.svg"
+            alt="star-h"
+            *ngIf="card.stars % 1 === 0.5"
+          />
+        </div>
+
+        <div class="featured__price">
+          {{ card.price | thousandsSeparatorPipe }} €
+        </div>
+        <a href="#" class="btn">check out</a>
+      </div>
+    </ng-template>
+  </swiper>
+
+  <!--=============== SWIPER 2 ===============-->
+  <swiper class="featured__container container" [config]="config">
+    <ng-template
+      swiperSlide
+      class="featured__content"
+      *ngFor="let card of reversedCardList"
+    >
+      <img src="{{ card.img }}" alt="{{ card.title }}" class="featured__img" />
+      <div>
+        <h3 class="featured__title">{{ card.title }}</h3>
+
+        <div class="featured__icons">
+          <ng-container *ngFor="let i of [0, 1, 2, 3, 4]; index as j">
+            <img
+              src="../../../assets/image/icons/star.svg"
+              alt="star"
+              *ngIf="j < card.stars - (card.stars % 1)"
+            />
+          </ng-container>
+
+          <img
+            src="../../../assets/image/icons/star-h.svg"
+            alt="star-h"
+            *ngIf="card.stars % 1 === 0.5"
+          />
+        </div>
+
+        <div class="featured__price">
+          {{ card.price | thousandsSeparatorPipe }} €
+        </div>
+        <a href="#" class="btn">check out</a>
+      </div>
+    </ng-template>
+  </swiper>
+</section>

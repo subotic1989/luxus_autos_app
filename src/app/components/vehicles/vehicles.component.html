@@ -1,0 +1,31 @@
+<section class="vehicles section" id="vehicles">
+  <h1 class="heading">popular <span>vehicles</span></h1>
+
+  <div class="vehicles container">
+    <swiper [config]="config">
+      <ng-template swiperSlide *ngFor="let car of carList">
+        <div class="box">
+          <img src="{{ car.img }}" alt="car" />
+          <div class="content">
+            <h3>{{ car.model }}</h3>
+            <div class="price">
+              <span>price : </span>{{ car.price | thousandsSeparatorPipe }} €
+            </div>
+            <p>
+              {{ car.state }}
+              <span class="circle"></span>
+              {{ car.year }}
+              <span class="circle"></span>
+              {{ car.drive }}
+              <span class="circle"></span>
+              {{ car.km }} km
+              <span class="circle"></span>
+              {{ car.gearbox }}
+            </p>
+            <a href="#" class="btn">check out</a>
+          </div>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+</section>

@@ -1,1 +1,197 @@
-/* You can add global styles to this file, and also import other style files */
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+/*=============== GENERAL ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lilita", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --yellow: #ff751a;
+  --light-yellow: #fa893e;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+  --first-color: #ff751a;
+  --first-color-light: #fa893e;
+  --second-color: #dad8d7;
+  --second-color-light: #ffffff;
+
+  --black: #1e1f24;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+
+  --title-color: #ffffff;
+  --text-color: #dad8d7;
+  --text-color-light: #918a88;
+}
+
+/*=============== CUSTOM CSS ===============*/
+.icon-xs {
+  width: 1.8rem;
+}
+
+.icon-s {
+  width: 2rem;
+}
+
+.icon-m {
+  width: 3rem;
+}
+
+.icon-l {
+  width: 4rem;
+}
+
+.section {
+  padding: 4.5rem 0 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading {
+  padding-bottom: 4rem;
+  text-align: center;
+  font-size: 4.5rem;
+  color: var(--black);
+}
+
+.heading span {
+  position: relative;
+  z-index: 0;
+}
+
+.heading span::before {
+  content: "";
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--light-yellow);
+  z-index: -1;
+  clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  background: var(--light-yellow);
+  color: var(--black);
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn:hover {
+  background: var(--yellow);
+}
+
+/*=============== MEDIA ===============*/
+
+@media (max-width: 991px) {
+  .section {
+    padding: 4.5rem 0 2rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding-top: 120rem !important;
+  }
+
+  .section {
+    padding: 4.5rem 0 2rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .section {
+    padding: 1.5rem 0 1rem !important;
+  }
+  .home {
+    padding-top: 8rem !important;
+  }
+
+  .container {
+    margin: auto;
+    padding: 5% !important;
+  }
+
+  .featured__container {
+    margin-bottom: 0 !important;
+  }
+}

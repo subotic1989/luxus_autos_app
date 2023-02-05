@@ -1,0 +1,62 @@
+[
+  {
+    "img": "../../../assets/image/porsche/vehicle-1.png",
+    "model": "Porsche Boxster",
+    "price": 98000,
+    "state": "new",
+    "year": 2022,
+    "drive": "hybrid",
+    "km": 0,
+    "gearbox": "automatic"
+  },
+  {
+    "img": "../../../assets/image/porsche/vehicle-2.png",
+    "model": "Porsche 911",
+    "price": 78000,
+    "state": "new",
+    "year": 2021,
+    "drive": "hybrid",
+    "km": 5000,
+    "gearbox": "automatic"
+  },
+  {
+    "img": "../../../assets/image/porsche/vehicle-3.png",
+    "model": "Porsche Boxster",
+    "price": 99000,
+    "state": "new",
+    "year": 2022,
+    "drive": "hybrid",
+    "km": 0,
+    "gearbox": "automatic"
+  },
+  {
+    "img": "../../../assets/image/porsche/vehicle-4.png",
+    "model": "Porsche Boxster",
+    "price": 99000,
+    "state": "new",
+    "year": 2022,
+    "drive": "hybrid",
+    "km": 0,
+    "gearbox": "automatic"
+  },
+  {
+    "img": "../../../assets/image/porsche/vehicle-5.png",
+    "model": "Porsche Boxster",
+    "price": 99000,
+    "state": "new",
+    "year": 2022,
+    "drive": "hybrid",
+    "km": 0,
+    "gearbox": "automatic"
+  },
+  {
+    "img": "../../../assets/image/porsche/vehicle-6.png",
+    "model": "Porsche Boxster",
+    "price": 99000,
+    "state": "new",
+    "year": 2022,
+    "drive": "hybrid",
+    "km": 0,
+    "gearbox": "automatic"
+  }
+]

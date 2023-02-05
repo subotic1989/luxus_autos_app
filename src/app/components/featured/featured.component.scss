@@ -1,0 +1,40 @@
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+
+.featured {
+  &__container {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: 0.5rem;
+  }
+
+  &__img {
+    height: 15rem;
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    color: var(--black);
+  }
+
+  &__icons img {
+    height: 3rem !important;
+  }
+
+  &__price {
+    font-size: 2.5rem;
+    color: var(--black);
+  }
+}

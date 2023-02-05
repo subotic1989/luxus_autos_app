@@ -1,0 +1,38 @@
+[
+  {
+    "img": "../../../assets/image/customer/pic-1.png",
+    "text": "I recently purchased a car from this website and was extremelyimpressed with the selection and customer service. The process wasseamless and I found the perfect vehicle for my needs at a greatprice. Highly recommend!",
+    "name": "John",
+    "stars": 4
+  },
+  {
+    "img": "../../../assets/image/customer/pic-2.png",
+    "text": " I have had nothing but positive experiences with this car sales website. The inventory is always up-to-date and the staff is incredibly helpful in finding the right vehicle for me. I will continue to shop here for my car needs.",
+    "name": "Sonja",
+    "stars": 4.5
+  },
+  {
+    "img": "../../../assets/image/customer/pic-3.png",
+    "text": "I was in the market for a new car and stumbled upon this website. I am so glad I did! The selection was vast and the prices were unbeatable. I had a great experience working with the sales team and would highly recommend.",
+    "name": "David",
+    "stars": 5
+  },
+  {
+    "img": "../../../assets/image/customer/pic-4.png",
+    "text": "I have been a loyal customer of this car sales website for years. They always have a great selection of vehicles and the staff is knowledgeable and helpful. I recently purchased my third car from them and couldn't be happier with my purchase.",
+    "name": "Sara",
+    "stars": 3.5
+  },
+  {
+    "img": "../../../assets/image/customer/pic-5.png",
+    "text": " I had a great experience shopping for a car on this website. The website was easy to navigate, the selection was impressive and the customer service was excellent. I ended up buying a car that met all of my needs at a great price.",
+    "name": "William",
+    "stars": 4
+  },
+  {
+    "img": "../../../assets/image/customer/pic-6.png",
+    "text": " I purchased a car from this website and the experience was incredible. The customer service was top-notch and the selection of cars was amazing. I found the perfect car for me and the price was very fair.",
+    "name": "Iva",
+    "stars": 5
+  }
+]

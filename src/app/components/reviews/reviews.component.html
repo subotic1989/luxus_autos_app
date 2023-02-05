@@ -1,0 +1,39 @@
+<section class="reviews section" id="reviews">
+  <h1 class="heading">client's <span>review</span></h1>
+
+  <div class="reviews__container container">
+    <swiper [config]="config">
+      <ng-template swiperSlide *ngFor="let review of reviewList">
+        <div class="reviews__content">
+          <img
+            src="{{ review.img }}"
+            alt="{{ review.name }}"
+            class="reviews__img"
+          />
+          <div class="content">
+            <p class="reviews__text">
+              {{ review.text }}
+            </p>
+            <h3 class="reviews__title">{{ review.name }}</h3>
+
+            <div class="reviews__stars">
+              <ng-container *ngFor="let i of [0, 1, 2, 3, 4]; index as j">
+                <img
+                  src="../../../assets/image/icons/star.svg"
+                  alt="star"
+                  *ngIf="j < review.stars - (review.stars % 1)"
+                />
+              </ng-container>
+
+              <img
+                src="../../../assets/image/icons/star-h.svg"
+                alt="star-h"
+                *ngIf="review.stars % 1 === 0.5"
+              />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+</section>

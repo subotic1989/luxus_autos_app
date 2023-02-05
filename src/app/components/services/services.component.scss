@@ -1,0 +1,50 @@
+.services {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    text-align: center;
+
+    &:hover {
+      background: var(--black);
+
+      .services__title {
+        color: #fff;
+      }
+      .services__text {
+        color: #eee;
+      }
+    }
+  }
+
+  &__img {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: var(--first-color);
+    color: var(--black);
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    color: var(--black);
+  }
+
+  &__text {
+    line-height: 1.8;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--light-color);
+  }
+}

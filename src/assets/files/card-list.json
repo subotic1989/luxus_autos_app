@@ -1,0 +1,50 @@
+[
+  {
+    "img": "../../../assets/image/card/car-1.png",
+    "title": "Mercedes",
+    "price": 55000,
+    "stars": 3.5
+  },
+  {
+    "img": "../../../assets/image/card/car-2.png",
+    "title": "Land Rover",
+    "price": 47000,
+    "stars": 5
+  },
+  {
+    "img": "../../../assets/image/card/car-3.png",
+    "title": "KIA",
+    "price": 32000,
+    "stars": 4
+  },
+  {
+    "img": "../../../assets/image/card/car-4.png",
+    "title": "Hyundai",
+    "price": 28500,
+    "stars": 1.5
+  },
+  {
+    "img": "../../../assets/image/card/car-5.png",
+    "title": "Audi",
+    "price": 45000,
+    "stars": 4.5
+  },
+  {
+    "img": "../../../assets/image/card/car-6.png",
+    "title": "Mercedes",
+    "price": 77000,
+    "stars": 4
+  },
+  {
+    "img": "../../../assets/image/card/car-7.png",
+    "title": "Audi",
+    "price": 44700,
+    "stars": 3
+  },
+  {
+    "img": "../../../assets/image/card/car-8.png",
+    "title": "Ford",
+    "price": 53000,
+    "stars": 5
+  }
+]

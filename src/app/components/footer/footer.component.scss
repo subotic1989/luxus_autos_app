@@ -1,0 +1,43 @@
+.footer {
+  background: var(--light-yellow);
+  padding-bottom: 1.5rem;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__content {
+    a {
+      display: block;
+      font-size: 1.4rem;
+      padding: 1rem 0;
+      color: var(--light-color);
+
+      img {
+        padding-right: 0.5rem;
+        color: var(--black);
+      }
+
+      &:hover img {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    color: var(--black);
+  }
+
+  &__credit {
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: var(--border);
+    font-size: 1.3rem;
+    color: var(--light-color);
+  }
+}
